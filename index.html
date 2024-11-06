@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ WEB</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <main>
+        <h1 class="title">QUIZ WEB</h1>
+
+        <form id="container">
+            <div id="question"></div>
+            <div id="choices-container">
+                <div class="choice-space">
+                    <input type="radio" name="choice" value="1" id="choice-1" class="choice">
+                    <label id="text-answer-1">!</label>
+                </div>
+                <div class="choice-space">
+                    <input type="radio" name="choice" value="2" id="choice-2" class="choice">
+                    <label id="text-answer-2">!</label>
+                </div>
+                <div class="choice-space">
+                    <input type="radio" name="choice" value="3" id="choice-3" class="choice">
+                    <label id="text-answer-3">!</label>
+                </div>
+                <div class="choice-space">
+                    <input type="radio" name="choice" value="4" id="choice-4" class="choice">
+                    <label id="text-answer-4">!</label>
+                </div>
+            </div>
+            <div id="quiz-footer">
+                <div class="num-question-space">
+                    <span id="num-question">0</span><span>/10</span>
+                </div>
+                    <input type="button" value="Proxima" id="next-question-btn">
+
+            </div>
+        </form>
+
+    </main>
+
+    <script src="src/script.js"></script>
+</body>
+</html>

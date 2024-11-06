@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background: rgb(65,0,112);
+    color: #fff;
+    margin: 0px;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgb(65,0,112) 15%, rgb(112, 0, 192));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 4rem;
+}
+
+#container{
+    width: 40%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    color: black;
+}
+
+#choices-container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.choice-space{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.choice-space:hover{
+    background-color: #dfdfdf;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#quiz-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.num-question-space{
+    opacity: 0.65;
+}
+
+.choice{
+    accent-color: rgb(112, 0, 192);
+    cursor: pointer;
+}
+
+#next-question-btn{
+    font-family: 'poppins', sans-serif;
+    border: none;
+    background-color: rgb(112, 0, 192);
+    color: #fff;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+#next-question-btn:hover{
+    font-family: 'poppins', sans-serif;
+    border: none;
+    background-color: rgb(112, 0, 192);
+    color: #fff;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 6px;
+    opacity: 0.7;
+}
+
+.gameover-message{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.reset-btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(112, 0, 192);
+    padding: 10px;
+    border-radius: 6px;
+    transition: 500ms;
+}
+
+.reset-btn:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(65,0,112);
+    padding: 10px;
+    border-radius: 6px;
+}
